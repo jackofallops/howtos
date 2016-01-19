@@ -1,5 +1,6 @@
-Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Install Homebrew  
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Add the following line to your .bash_profile or .profile:
 
@@ -10,10 +11,11 @@ Add the following line to your .bash_profile or .profile:
 GNU Command Line Tools  
 GNU Coreutils:
 
-brew install coreutils
-GNU Coreutils contains the most essential UNIX commands, such as ls, cat.
+    brew install coreutils
 
-Then you may probably want to install the following ones (For some of the packages, you need to run brew tap homebrew/dupes first, but only once for your system):
+GNU Coreutils contains the usual flavours of UNIX commands, such as ls, cat.
+
+Then you may probably want to install the following ones (For some of the packages, you will need to run `brew tap homebrew/dupes` first, but only once for your system):
 
     brew install binutils  
     brew install diffutils  
