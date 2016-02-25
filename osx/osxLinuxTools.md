@@ -64,6 +64,17 @@ Others, you may want:
     brew install macvim --override-system-vim --custom-system-icons
     brew install zsh
 
+For laziness (or efficiency)
+    
+    brew install bash-completion
+
+and then:
+
+    if [ -f `brew --prefix`/etc/bash_completion ]; then
+        . `brew --prefix`/etc/bash_completion
+    fi
+
 Hopefully OSX feels a little more familiar now... :) (I still miss Debian...)
 
 Finally: You may also want to add $HOMEBREW_PREFIX/opt/coreutils/libexec/gnuman to the MANPATH environmental variable, where $HOMEBREW_PREFIX is the prefix of Homebrew, which is /usr/local by default.
+
