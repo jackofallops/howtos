@@ -68,7 +68,7 @@ For laziness (or efficiency)
     
     brew install bash-completion
 
-and then:
+and then add the following to your .bash_profile:
 
     if [ -f `brew --prefix`/etc/bash_completion ]; then
         . `brew --prefix`/etc/bash_completion
